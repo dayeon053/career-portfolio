@@ -8,6 +8,18 @@ C/C++ 코드의 빌드 조건을 분석하고, 요구사항을 규칙과 테스�
 - 요구사항 구현: 결과뿐 아니라 조건 충족 여부와 누락 사유를 설명하는 규칙과 API를 만들었습니다.
 - 검증 자동화: 반복 실행을 연결하고, 비교 기준과 남은 실패를 구분해 기록했습니다.
 
+
+## 원본 코드와 개발 기록
+
+| 프로젝트 | 코드와 기록 |
+|---|---|
+| LogosFuzz | [범용화 개발 브랜치](https://github.com/sesezz/LogosFuzz/tree/feature/generic-embedded), [대상 프로필과 추출기 PR #71](https://github.com/sesezz/LogosFuzz/pull/71), [KB 연결과 libsndfile 평가 PR #76](https://github.com/sesezz/LogosFuzz/pull/76), [구현 및 평가 문서](https://github.com/sesezz/LogosFuzz/blob/feature/generic-embedded/docs/GENERIC-A-kb.md) |
+| nodown | [원본 저장소](https://github.com/10502R/nodown), [규칙 엔진](https://github.com/10502R/nodown/blob/main/services/rule_service.py), [규칙 테스트](https://github.com/10502R/nodown/blob/main/tests/test_rule_service.py), [담당 범위 기록](https://github.com/10502R/nodown/blob/main/docs/A_%EB%8B%B4%EB%8B%B9_%EA%B5%AC%ED%98%84%EC%A7%80%EC%B9%A8.md) |
+| SBOM/SCA | [팀 관련 SBOM 생성 및 DB 연계 저장소](https://github.com/WhiteHatSchool/SBOM_Gen_and_Conn_DB) |
+| 동의ON | [개발 브랜치](https://github.com/dayeon053/dynamic-consent-system/tree/develop), [회귀 테스트 PR #20](https://github.com/dayeon053/dynamic-consent-system/pull/20), [동의항목 API PR #21](https://github.com/dayeon053/dynamic-consent-system/pull/21) |
+
+원본 저장소는 팀 공동 작업물입니다. 개인 역할은 각 프로젝트 본문과 담당 기록으로 구분하며, SBOM 관련 저장소 전체를 개인 단독 구현으로 제시하지 않습니다. 링크의 테스트 코드를 이번 포트폴리오 작성 과정에서 새로 실행한 것은 아닙니다.
+
 ## 1. LogosFuzz - C/C++ 퍼징 하네스 생성에 빌드 조건 연결
 
 **문제**  
