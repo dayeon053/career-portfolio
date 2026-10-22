@@ -1,6 +1,6 @@
 # kt ds Security 지원 포트폴리오 - 황다연
 
-정보보호를 전공하고 개인정보보호를 복수전공하며, 구성요소 분석과 보안 검증, 개인정보 관리 API를 구현했습니다. kt ds Security 직무에 맞춰 보안 자동화와 분석 결과 검증 경험을 정리했습니다.
+정보보호를 전공하고 개인정보보호를 복수전공하며, 구성요소 분석과 보안 검증, 개인정보 관리 API를 구현했습니다.
 
 ## 1. 클라우드 기반 SBOM 생성 및 SCA 취약점 분석 자동화
 
@@ -46,9 +46,3 @@ WSL의 libsndfile 1.2.2에서 92개 파일의 컴파일 정보를 추출하고 �
 - [개발 브랜치](https://github.com/dayeon053/dynamic-consent-system/tree/develop)
 - [공용 모델 회귀 테스트 PR #20](https://github.com/dayeon053/dynamic-consent-system/pull/20)
 - [동의항목 API PR #21](https://github.com/dayeon053/dynamic-consent-system/pull/21)
-
-## 자료 기준
-
-개인 역할은 담당 기록과 개발 자료를 대조해 작성했습니다. 연결된 저장소는 팀 공동 작업물을 포함하며 각 절에 적힌 범위가 개인 담당입니다. 검증 수치는 당시 실행 기록 기준이며 이 문서를 작성하며 테스트를 새로 실행한 결과는 아닙니다.
-
-2026년 10월 22일 작성.
