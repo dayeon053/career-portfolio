@@ -4,6 +4,8 @@
 
 ## 회사별 제출본
 
+- [kt ds 2026 신입 - Security](applications/kt-ds-security-2026/README.md)
+
 - [슈어소프트테크 2027 신입 - SW 설계 및 검증](applications/suresofttech-2027/README.md)
 
 ## 공개 코드 근거
